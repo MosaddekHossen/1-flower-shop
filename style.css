@@ -51,6 +51,7 @@ h1 {
     font-size: 16px;
     font-weight: 400;
     padding: 20px 0;
+    line-height: 30px;
 }
 
 .primary {
@@ -82,10 +83,59 @@ h1 {
 span {
     color: #E55473;
 }
-.prim{    
+
+.prim {
     color: #FFF;
-font-size: 16px;
-font-weight: 700;
+    font-size: 16px;
+    font-weight: 700;
     border-radius: 8px;
-background: #E55473;
+    background: #E55473;
 }
+
+/* ==================== */
+/* Instagram section */
+/* ==================== */
+.insta-h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+
+.des {
+    text-align: center;
+    padding: 0 30%;
+    padding-bottom: 40px;
+}
+.Instagram-section{
+    margin-bottom: 100px;
+}
+.main-div{
+    display: flex;
+    gap: 20px;
+    padding: 0 13%;
+}
+.div{
+    background-image: url(./Asset/Flower01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 330px;
+}
+.div-1{
+    background-image: url(./Asset/Flower01.png);
+}
+.div-2{
+    background-image: url(./Asset/Rectangle4.png);
+}
+.div-3{
+    background-image: url(./Asset/Rectangle\ 5.png);
+}
+.div-4{
+    background-image: url(./Asset/Rectangle\ 6.png);
+}
+/* ==================== */
+/* Instagram section */
+/* ==================== */
