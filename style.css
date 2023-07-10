@@ -11,7 +11,7 @@ body {
 }
 
 /* ==================== */
-/* Reuseal elements */
+/* Reuse elements */
 /* ==================== */
 .btn {
     color: #000000;
@@ -192,7 +192,7 @@ input {
 /* ==================== */
 footer {
     background: #111010;
-    padding: 10% 20%;
+    padding: 6% 19%;
 }
 .footer-h2 {
     color: #ffffff;
