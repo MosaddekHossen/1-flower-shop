@@ -108,15 +108,18 @@ span {
     padding: 0 30%;
     padding-bottom: 40px;
 }
-.Instagram-section{
+
+.Instagram-section {
     margin-bottom: 100px;
 }
-.main-div{
+
+.main-div {
     display: flex;
     gap: 20px;
     padding: 0 13%;
 }
-.div{
+
+.div {
     background-image: url(./Asset/Flower01.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,18 +127,58 @@ span {
     width: 100%;
     height: 330px;
 }
-.div-1{
+
+.div-1 {
     background-image: url(./Asset/Flower01.png);
 }
-.div-2{
+
+.div-2 {
     background-image: url(./Asset/Rectangle4.png);
 }
-.div-3{
+
+.div-3 {
     background-image: url(./Asset/Rectangle\ 5.png);
 }
-.div-4{
+
+.div-4 {
     background-image: url(./Asset/Rectangle\ 6.png);
 }
+
 /* ==================== */
-/* Instagram section */
+/* Latest Deals section */
 /* ==================== */
+.Latest-Deals {
+    border-radius: 8px;
+    background-image: url("./Asset/Rectangle9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 74%;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+
+.latest-h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+input {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px 300px 20px 20px;
+    border: 0;
+}
+.sub{
+    border-radius: 8px;
+background: #E55473;
+color: #FFF;
+}
