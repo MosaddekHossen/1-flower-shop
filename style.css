@@ -17,6 +17,8 @@ body {
     color: #000000;
     font-size: 20px;
     padding: 15px 35px;
+    border: 0;
+
 }
 
 /* ==================== */
@@ -44,7 +46,7 @@ h1 {
     height: 100%;
 }
 
-.header-description {
+.p-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
@@ -55,10 +57,35 @@ h1 {
     font-weight: 300;
     color: #fff;
     border-radius: 8px;
-    border: 0;
     background: #E55473;
 }
 
 /* ==================== */
-/* Header part */
+/* Hot Deal section */
 /* ==================== */
+.Hot {
+    margin: 100px 0;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 150px;
+}
+
+.Hot-h2 {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+span {
+    color: #E55473;
+}
+.prim{    
+    color: #FFF;
+font-size: 16px;
+font-weight: 700;
+    border-radius: 8px;
+background: #E55473;
+}
