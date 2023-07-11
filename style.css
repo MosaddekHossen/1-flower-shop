@@ -20,7 +20,7 @@ body {
     border: 0;
 }
 
-/* ==================== */ 
+/* ==================== */
 /* Header part */
 /* ==================== */
 
@@ -59,16 +59,18 @@ h1 {
     border-radius: 8px;
     background: #E55473;
 }
-/* ==================== */ 
+
+/* ==================== */
 /* Bonus section */
 /* ==================== */
-.bonus-h2{
+.bonus-h2 {
     color: #272727;
     text-align: center;
-padding: 10px;
-font-size: 40px;
-font-weight: 800;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 800;
 }
+
 /* ==================== */
 /* Hot Deal section */
 /* ==================== */
@@ -202,6 +204,7 @@ footer {
     background: #111010;
     padding: 6% 19%;
 }
+
 .footer-h2 {
     color: #ffffff;
     font-size: 48px;
@@ -215,7 +218,8 @@ footer {
     color: #FFF;
     padding: 0 20%;
 }
-.footer-l{
+
+.footer-l {
     width: 100%;
     text-align: center;
     color: rgba(255, 255, 255, 0.40);
