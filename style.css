@@ -74,7 +74,7 @@ h1 {
 .pic-div {
     display: flex;
     gap: 20px;
-    padding: 3% 13%;
+    padding: 3% 13% 0 13%;
 }
 
 .pic-1 {
