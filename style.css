@@ -74,7 +74,7 @@ h1 {
 .pic-div {
     display: flex;
     gap: 20px;
-    padding: 2% 13%;
+    padding: 3% 13%;
 }
 
 .pic-1 {
@@ -113,6 +113,59 @@ h1 {
 
 }
 
+/* ==================== */
+/* Free Support section */
+/* ==================== */
+
+.free-section {
+    margin: 3% 13%;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 50px;
+}
+.free-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.free-img-1{
+    background-image: url("./Asset/Group57.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px; 
+    margin: auto;
+}
+.free-img-2{
+    background-image: url("./Asset/Group58.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+
+
+}
+.free-img-3{
+    background-image: url("./Asset/Group59.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+
+
+}
+.free-h4{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+padding-top: 20px;
+}
 /* ==================== */
 /* Hot Deal section */
 /* ==================== */
