@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -31,7 +32,8 @@ header {
     align-items: center;
     height: 100vh;
     gap: 25px;
-    padding: 0 12%;
+    padding: 4% 12% 0 12%;
+
 }
 
 h1 {
@@ -51,6 +53,10 @@ h1 {
     font-weight: 400;
     padding: 15px 0;
     line-height: 30px;
+}
+
+.one {
+    width: 97%;
 }
 
 .primary {
@@ -73,41 +79,39 @@ h1 {
 
 .pic-div {
     display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 50px auto;
+    text-align: center;
     gap: 20px;
-    padding: 3% 13% 0 13%;
+}
+
+.pic-1>img {
+    width: 250px;
+    height: 400px;
+}
+
+.pic>img {
+    height: 300px;
 }
 
 .pic-1 {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    width: 33%;
-    height: 430px;
-    background-image: url("./Asset/pngwing6.png");
+    background: rgba(71, 125, 17, 0.15);
+    width: 400px;
+    height: 450px;
     background-repeat: no-repeat;
-    background-position: center;
-
+    background-size: cover;
+    padding: 50px 50px 0 50px;
 }
 
 .pic-2 {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    width: 33%;
-    height: 430px;
-    background-image: url("./Asset/pngwing5.png");
-    background-repeat: no-repeat;
-    background-position: center;
-
+    padding: 80px 50px 0 50px;
 }
 
 .pic-3 {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    width: 33%;
-    height: 430px;
-    background-image: url("./Asset/pngwing7.png");
-    background-repeat: no-repeat;
-    background-position: center;
-
 }
 
 /* ==================== */
