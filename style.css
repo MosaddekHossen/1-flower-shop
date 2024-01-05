@@ -29,7 +29,7 @@ header {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     height: 100vh;
     gap: 25px;
     padding: 4% 12% 0 12%;
@@ -372,7 +372,7 @@ footer {
 /* Large Device responsive */
 @media screen and (min-width: 1024px) {
     .btn {
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 }
 
@@ -429,5 +429,27 @@ footer {
 
     .p-description {
         font-size: 14px;
+    }
+
+    .latest-h2 {
+        font-size: 25px;
+    }
+
+    input {
+        padding: 20px;
+    }
+
+    .contact {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    .Latest-Deals {
+        width: 80%;
+        margin: auto;
+        padding: 70px 0;
+        margin-bottom: 50px;
     }
 }
