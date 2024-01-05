@@ -118,13 +118,6 @@ h1 {
 /* Free Support section */
 /* ==================== */
 
-.free-section {
-    margin: 3% 13%;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    padding: 80px 50px;
-}
-
 .free-main {
     display: flex;
     justify-content: space-around;
@@ -171,30 +164,6 @@ h1 {
     font-size: 18px;
     font-weight: 600;
     padding-top: 20px;
-}
-
-/* ==================== */
-/* Optional Section */
-/* ==================== */
-.full-img {
-    background-image: url("./Asset/1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    margin-top: 100px;
-}
-
-.op,
-.opp {
-    color: #FFF;
-    text-align: justify;
-    width: 60%;
-    margin: auto;
-}
-
-.op {
-    padding-top: 100px;
 }
 
 /* ==================== */
@@ -372,10 +341,29 @@ footer {
         gap: 20px;
         padding: 0 13%;
     }
+
+    .free-section {
+        margin: 3% 13%;
+        border-radius: 8px;
+        background: rgba(39, 39, 39, 0.05);
+        padding: 80px 50px;
+    }
 }
 
 /* Medium Device responsive */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .free-main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .free-section {
+        margin: 3% 5%;
+        border-radius: 8px;
+        background: rgba(39, 39, 39, 0.05);
+        padding: 80px 50px;
+    }
+
     .Hot {
         padding: 5% 15%;
         display: grid;
@@ -411,6 +399,10 @@ footer {
     .des {
         padding: 0 10% 5%;
     }
+
+    .hot-content-section {
+        order: 1;
+    }
 }
 
 /* Small Device responsive */
@@ -419,8 +411,25 @@ footer {
         font-size: 25px;
     }
 
+    .free-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .hot-section-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Hot {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     .hot-content-section {
         text-align: center;
+        order: 1;
     }
 
     .btn {
