@@ -403,12 +403,32 @@ footer {
     .hot-content-section {
         order: 1;
     }
+
+    .pic-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-items: center;
+        padding: 5%;
+    }
 }
 
 /* Small Device responsive */
 @media screen and (max-width: 767px) {
     .Hot-h2 {
         font-size: 25px;
+    }
+
+    .pic-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-items: center;
+        padding: 5%;
+    }
+
+    .bonus-h2 {
+        font-size: 30px;
     }
 
     .free-main {
