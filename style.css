@@ -379,7 +379,7 @@ footer {
 /* Medium Device responsive */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     h1 {
-        /* font-size: 30px; */
+        font-size: 30px;
     }
 
     header {
@@ -410,5 +410,24 @@ footer {
     .img {
         width: 100%;
         height: 300px;
+    }
+
+    .footer-h2 {
+        font-size: 30px;
+    }
+
+    .footer-des {
+        text-align: center;
+        color: #FFF;
+        padding: 0 5%;
+    }
+
+    footer {
+        background: #111010;
+        padding: 5% 10%;
+    }
+
+    .p-description {
+        font-size: 14px;
     }
 }
