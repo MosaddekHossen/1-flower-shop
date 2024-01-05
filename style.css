@@ -200,15 +200,6 @@ h1 {
 /* ==================== */
 /* Hot Deal section */
 /* ==================== */
-.Hot {
-    margin: 100px 0;
-    background: rgba(229, 84, 115, 0.05);
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 150px;
-}
 
 .Hot-h2 {
     color: #272727;
@@ -366,6 +357,15 @@ footer {
 
 /* Large Device responsive */
 @media screen and (min-width: 1024px) {
+    .Hot {
+        margin: 100px 0;
+        background: rgba(229, 84, 115, 0.05);
+        padding: 5% 15%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
 
     .main-div {
         display: flex;
@@ -376,8 +376,19 @@ footer {
 
 /* Medium Device responsive */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .Hot {
+        padding: 5% 15%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     h1 {
         font-size: 30px;
+    }
+
+    .hot-section-image {
+        display: flex;
+        justify-content: center;
     }
 
     header {
@@ -385,15 +396,18 @@ footer {
         height: auto;
         width: auto;
     }
+
     .insta-h2 {
         font-size: 35px;
     }
+
     .main-div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 0px 10%;
         gap: 10px;
     }
+
     .des {
         padding: 0 10% 5%;
     }
@@ -401,6 +415,20 @@ footer {
 
 /* Small Device responsive */
 @media screen and (max-width: 767px) {
+    .Hot-h2 {
+        font-size: 25px;
+    }
+
+    .hot-content-section {
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+
     h1 {
         font-size: 25px;
     }
